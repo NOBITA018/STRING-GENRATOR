@@ -21,7 +21,7 @@ app = Client(
 
 
 if __name__ == "__main__":
-    print("𝙹𝚊𝚛𝚟𝚒𝚜 𝚂𝚎𝚜𝚜𝚒𝚘𝚗 𝙶𝚎𝚗 𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐...")
+    print("NOBITA 𝚂𝚎𝚜𝚜𝚒𝚘𝚗 𝙶𝚎𝚗 𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐...")
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
     uname = app.get_me().username
-    print(f"@{uname} NOW JARVIS SESSION GEN IS READY TO GEN SESSION")
+    print(f"@{uname} NOW NOBITA SESSION GEN IS READY TO GEN SESSION")
     idle()
     app.stop()
     print("🇸 🇪 🇸 🇸 🇮 🇴 🇳  🇬 🇪 🇳 🇷 🇦 🇹 🇮 🇳 🇬  🇸 🇹 🇴 🇵 🇵 🇪 🇩...")
